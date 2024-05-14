@@ -1,3 +1,3 @@
-# thin-ice
+# Thin Ice
 - Java
 - libGDX
