@@ -87,7 +87,7 @@ public class Game extends ApplicationAdapter {
         /*Gdx.gl.glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         Gdx.graphics.setVSync(true);*/
         spriteBatch = new SpriteBatch();
-        backgroundTexture = new Texture("background.png"); //Menu
+        backgroundTexture = new Texture("assets/images/background.png"); //Menu
 
         //Viewing
         camera = new OrthographicCamera();
@@ -133,21 +133,21 @@ public class Game extends ApplicationAdapter {
             {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
             {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}};
 
-        player = new Texture("player.png");
-        unusedBlock = new Texture("unusedBlock.png");
-        wallBlocker = new Texture("wallBlocker.png");
-        ice = new Texture("ice.png"); //
-        water = new Texture("water.png"); //
-        nextLevel = new Texture("nextLevel.png");
+        player = new Texture("assets/images/player.png");
+        unusedBlock = new Texture("assets/images/unusedBlock.png");
+        wallBlocker = new Texture("assets/images/wallBlocker.png");
+        ice = new Texture("assets/images/ice.png"); //
+        water = new Texture("assets/images/water.png"); //
+        nextLevel = new Texture("assets/images/nextLevel.png");
 
-        back1 = new Texture("button_back1.png");
-        back2 = new Texture("button_back2.png");
-        next1 = new Texture("button_next1.png");
-        next2 = new Texture("button_next2.png");
-        play1 = new Texture("button_play1.png"); //png
-        play2 = new Texture("button_play2.png");
-        tutorial1 = new Texture("button_tutorial1.png");
-        tutorial2 = new Texture("button_tutorial2.png");
+        back1 = new Texture("assets/images/button_back1.png");
+        back2 = new Texture("assets/images/button_back2.png");
+        next1 = new Texture("assets/images/button_next1.png");
+        next2 = new Texture("assets/images/button_next2.png");
+        play1 = new Texture("assets/images/button_play1.png"); //png
+        play2 = new Texture("assets/images/button_play2.png");
+        tutorial1 = new Texture("assets/images/button_tutorial1.png");
+        tutorial2 = new Texture("assets/images/button_tutorial2.png");
         startRect = new Rectangle(Constants.WORLD_WIDTH / 2 - play1.getWidth() / 2 - 25, //x location
             Constants.WORLD_HEIGHT / 2 - 140, //y location of bottom left of rectangle
             play1.getWidth(), //Width of rectangle
