@@ -1,4 +1,4 @@
 # Thin Ice
 Java | libGDX
 
-A **remake** of Thin Ice from Club Penguin. Built for personal learning and growth.
+A **remake** being a fire puffle that traverses an ice maze. Built for personal learning and growth.
